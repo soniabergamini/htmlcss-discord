@@ -171,6 +171,7 @@ h3 {
 footer {
     background-color: #23272A;
     width: 100vw; /* 1536px */
+    padding-bottom: 2%;
 }
 
 footer > section:first-child {
