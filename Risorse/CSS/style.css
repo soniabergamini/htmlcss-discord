@@ -18,11 +18,12 @@
     margin: 0 auto;
 }
 
-/* GENERIC UTILITIES | border; padding x box; whitetxt; cursor */
+/* GENERIC UTILITIES | border; padding x box; whitetxt; cursor; txt center */
 .border { border: 1px dashed black; }
 .pad { padding: 2.5rem;} /* 40px */
 .txtwhite { color: white; }
 .cursor { cursor: pointer; }
+.txtalignctr { text-align: center; }
 
 /* UTILITY | hover text */
 .TxtUnderUpper:hover {
@@ -53,7 +54,6 @@ header {
 
 nav {
     width: 60%;
-    text-align: center;
 }
 
 #yellowbox > * {
@@ -76,7 +76,6 @@ header > section:last-child {
     max-width: 47%; /* 725px su 1536px */
     min-height: 20rem; /* 320px su 1536px */
     margin: 0 auto;
-    text-align: center;
 }
 
 h1 {
@@ -90,7 +89,7 @@ h1 {
 }
 
 i {
-    padding-right: 3px;
+    padding-right: 0.2rem;
 }
 
 #pinkbox button:last-child {
@@ -118,20 +117,25 @@ main {
 }
 
 .lightblue {
-    background-color: #1D90FF;
     min-width: 60%; /* 576px su 960px */
-    min-height: 25rem; /* 400px */
+}
+
+.lightblue > img , #greenbig > img {
+    width: 100%;
 }
 
 .pinky {
-    background-color: #FFC0CC; 
     min-width: 40%; /* 384px su 960px */
-    min-height: 25rem; /* 400px */
 }
 
-#greenbig {
-    background-color: #228B23;
-    min-height: 45rem; /* 720px */
+.pinky > h2 {
+    font-size: 2rem;
+    margin: 3% 0 5%;
+}
+
+#greenbig > h2 {
+    font-size: 2rem;
+    margin: 3% 0 2%;
 }
 
 /* FOOTER STYLE */
@@ -164,7 +168,6 @@ footer > section:first-child {
 
 #lightgreen {
     background-color: #7FFFD4;
-    text-align: center;
     margin-top: 1.25rem; /* 20px */
     align-items: center;
     min-height: 3.75rem; /* 60px */
