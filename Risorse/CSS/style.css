@@ -102,7 +102,7 @@ i {
     background-color: #23272ac7;
 }
 
-#pinkbox button {
+#pinkbox button , #greenbig button {
     margin: 2%;
     font-size: 1rem;
 }
@@ -136,6 +136,25 @@ main {
 #greenbig > h2 {
     font-size: 2rem;
     margin: 3% 0 2%;
+}
+
+#greenbig > img:nth-child(4) {
+    width: 50%;
+}
+
+#greenbig > h3 {
+    font-size: 1.4rem;
+    margin-top: -1rem;
+}
+
+#greenbig > button {
+    background-color: #5765F2;
+    border-color: #5765F2;
+}
+
+#greenbig > button:hover {
+    background-color: #5764f2d7;
+    color: white;
 }
 
 /* FOOTER STYLE */
