@@ -1,11 +1,12 @@
-/* general style & helpers/utilities */
+/* GENERAL STYLE */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-/* classi per contenitori flex */
+/* FLEX CONTAINERS HELPERS */
 .flex {  
     display: flex;
 } 
@@ -15,34 +16,64 @@
 }
 
 .alignctr {
+    align-items: center;
+}
+
+.justyctr {
     justify-content: center;
 }
 
-/* classe per blocchi interni centrati */
+/* UTILITY | centratura */
 .box { 
     max-width: 60rem; /* 960px su 1536px */
     margin: 0 auto;
 }
 
-/* classe per bordo dashed nero generico */
+/* UTILITY | bordo dashed nero */
 .border {
     border: 1px dashed black;
 }
 
-/* classe per padding box generico */
+/* UTILITY | padding box generico */
 .pad {
     padding: 2.5rem; /* 40px */
 }
 
-/* header style */
-header {
-    background-color: #AED8E6;
-    padding-top: 1rem;
-    width: 100vw; /* 1536px */
+/* UTILITY | testo bianco */
+.txtwhite {
+    color: white;
 }
 
-header > section:first-child {
-    background-color: #DAA520;
+/* UTILITY | hover text decoration: underline  */
+.TxtUnderUpper:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* UTILITY | style button */
+button {
+    padding: 7px 14px;
+    border: 1px solid white; 
+    border-radius: 16px; 
+}
+
+button:hover {
+    color: #5765F2;
+    box-shadow: 0px 14px 20px -10px rgba(0,0,0,0.8); 
+}
+
+/* HEADER STYLE */
+header {
+    /* background-color: #AED8E6; */
+    padding-top: 1rem;
+    width: 100vw; /* 1536px */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    line-height: 50px;
 }
 
 nav {
@@ -56,8 +87,13 @@ nav {
     padding: 0.9%;
 }
 
+a {
+    text-decoration: none;
+    padding-right: 4%;
+}
+
 header > section:last-child {
-    background-color: #06008B;
+    /* background-color: #06008B; */
     width: 100%;
     margin-top: 1rem; /* 16px */
 }
@@ -69,7 +105,7 @@ header > section:last-child {
     margin: 0 auto;
 }
 
-/* main style */
+/* MAIN STYLE */
 main {
     width: 100vw; /* 1536px */
 }
@@ -95,7 +131,7 @@ main {
     min-height: 45rem; /* 720px */
 }
 
-/* footer style */
+/* FOOTER STYLE */
 footer {
     background-color: #23272A;
     width: 100vw; /* 1536px */
