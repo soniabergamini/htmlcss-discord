@@ -49,7 +49,6 @@ header {
     width: 100vw; /* 1536px */
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    line-height: 50px;
 }
 
 nav {
@@ -59,6 +58,7 @@ nav {
 
 #yellowbox > * {
     padding: 0.9%;
+    line-height: 50px;
 }
 
 a {
@@ -73,10 +73,34 @@ header > section:last-child {
 }
 
 #pinkbox {
-    background-color: #EE82EF;
     max-width: 47%; /* 725px su 1536px */
     min-height: 20rem; /* 320px su 1536px */
     margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 4%;
+    font-size: 2.8rem;
+}
+
+#pinkbox > p {
+    margin: 2%;
+    line-height: 2rem;
+}
+
+i {
+    padding-right: 3px;
+}
+
+#pinkbox button:last-child {
+    background-color: #23272A;
+    border-color: #23272A;
+}
+
+#pinkbox button:last-child:hover {
+    color: white;
+    background-color: #23272ac7;
 }
 
 /* MAIN STYLE */
