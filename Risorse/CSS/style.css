@@ -103,6 +103,11 @@ i {
     background-color: #23272ac7;
 }
 
+#pinkbox button {
+    margin: 2%;
+    font-size: 1rem;
+}
+
 /* MAIN STYLE */
 main {
     width: 100vw; /* 1536px */
