@@ -19,7 +19,6 @@
 }
 
 /* GENERIC UTILITIES | border; padding-box; txtcolor; cursor; txtcenter */
-.border { border: 1px dashed black; }
 .pad { padding: 2.5rem;} /* 40px */
 .txtwhite { color: white; }
 .cursor { cursor: pointer; }
