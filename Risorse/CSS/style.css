@@ -148,12 +148,12 @@ h3 {
     margin-top: -1rem;
 }
 
-#greenbig > button {
+#greenbig > button, #lightgreen button {
     background-color: #8EA1E1;
     border-color: #8EA1E1;
 }
 
-#greenbig > button:hover {
+#greenbig > button:hover, #lightgreen button:hover {
     background-color: #5764f2d7;
     color: white;
 }
@@ -166,7 +166,6 @@ footer {
 
 footer > section:first-child {
     padding-top: 0.6rem; /* 10px */ 
-    padding-bottom: 1.8rem; /* 30px */
 }
 
 #rose {
@@ -199,14 +198,15 @@ footer > section:first-child {
     line-height: 2rem;
 }
 
+hr {
+    border-color: #7289DA;
+}
+
 #lightgreen {
-    background-color: #7FFFD4;
     margin-top: 1.25rem; /* 20px */
     align-items: center;
-    min-height: 3.75rem; /* 60px */
 }
 
 #lightgreen > div {
-    background-color: #FFB6C1;
     padding: 0.7%;
 }
