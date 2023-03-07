@@ -18,7 +18,7 @@
     margin: 0 auto;
 }
 
-/* GENERIC UTILITIES | border; padding x box; whitetxt; cursor; txt center */
+/* GENERIC UTILITIES | border; padding-box; txtcolor; cursor; txtcenter */
 .border { border: 1px dashed black; }
 .pad { padding: 2.5rem;} /* 40px */
 .txtwhite { color: white; }
@@ -114,7 +114,7 @@ main {
 }
 
 .bkgrey {
-    background-color: #D3D3D3;
+    background-color: #F3F3F3;
 }
 
 .lightblue {
@@ -132,6 +132,16 @@ main {
 .pinky > h2 {
     font-size: 2rem;
     margin: 3% 0 5%;
+}
+
+.wave {
+    opacity: 0.05;
+    width: 100vw;
+    display: block;
+}
+
+#rotatewave {
+    transform: rotate(180deg);
 }
 
 #greenbig > h2 {
