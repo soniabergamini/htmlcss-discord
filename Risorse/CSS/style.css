@@ -7,21 +7,10 @@
 }
 
 /* FLEX CONTAINERS HELPERS */
-.flex {  
-    display: flex;
-} 
-
-.spacebtw {
-    justify-content: space-between;
-}
-
-.alignctr {
-    align-items: center;
-}
-
-.justyctr {
-    justify-content: center;
-}
+.flex { display: flex; } 
+.spacebtw { justify-content: space-between; }
+.alignctr { align-items: center; }
+.justyctr { justify-content: center; }
 
 /* UTILITY | centratura */
 .box { 
@@ -29,29 +18,16 @@
     margin: 0 auto;
 }
 
-/* UTILITY | bordo dashed nero */
-.border {
-    border: 1px dashed black;
-}
+/* GENERIC UTILITIES | border; padding x box; whitetxt; cursor */
+.border { border: 1px dashed black; }
+.pad { padding: 2.5rem;} /* 40px */
+.txtwhite { color: white; }
+.cursor { cursor: pointer; }
 
-/* UTILITY | padding box generico */
-.pad {
-    padding: 2.5rem; /* 40px */
-}
-
-/* UTILITY | testo bianco */
-.txtwhite {
-    color: white;
-}
-
-/* UTILITY | hover text decoration: underline  */
+/* UTILITY | hover text */
 .TxtUnderUpper:hover {
     text-decoration: underline;
     text-transform: uppercase;
-}
-
-.cursor {
-    cursor: pointer;
 }
 
 /* UTILITY | style button */
@@ -77,8 +53,6 @@ header {
 }
 
 nav {
-    border-style: dashed;
-    border-width: 0 2px;
     width: 60%;
     text-align: center;
 }
