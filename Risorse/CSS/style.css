@@ -1,0 +1,137 @@
+/* general style & helpers/utilities */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* classi per contenitori flex */
+.flex {  
+    display: flex;
+} 
+
+.spacebtw {
+    justify-content: space-between;
+}
+
+.alignctr {
+    justify-content: center;
+}
+
+/* classe per blocchi interni centrati */
+.box { 
+    max-width: 60rem; /* 960px su 1536px */
+    margin: 0 auto;
+}
+
+/* classe per bordo dashed nero generico */
+.border {
+    border: 1px dashed black;
+}
+
+/* classe per padding box generico */
+.pad {
+    padding: 2.5rem; /* 40px */
+}
+
+/* header style */
+header {
+    background-color: #AED8E6;
+    padding-top: 1rem;
+    width: 100vw; /* 1536px */
+}
+
+header > section:first-child {
+    background-color: #DAA520;
+}
+
+nav {
+    border-style: dashed;
+    border-width: 0 2px;
+    width: 60%;
+    text-align: center;
+}
+
+#yellowbox > * {
+    padding: 0.9%;
+}
+
+header > section:last-child {
+    background-color: #06008B;
+    width: 100%;
+    margin-top: 1rem; /* 16px */
+}
+
+#pinkbox {
+    background-color: #EE82EF;
+    max-width: 47%; /* 725px su 1536px */
+    min-height: 20rem; /* 320px su 1536px */
+    margin: 0 auto;
+}
+
+/* main style */
+main {
+    width: 100vw; /* 1536px */
+}
+
+.bkgrey {
+    background-color: #D3D3D3;
+}
+
+.lightblue {
+    background-color: #1D90FF;
+    min-width: 60%; /* 576px su 960px */
+    min-height: 25rem; /* 400px */
+}
+
+.pinky {
+    background-color: #FFC0CC; 
+    min-width: 40%; /* 384px su 960px */
+    min-height: 25rem; /* 400px */
+}
+
+#greenbig {
+    background-color: #228B23;
+    min-height: 45rem; /* 720px */
+}
+
+/* footer style */
+footer {
+    background-color: #23272A;
+    width: 100vw; /* 1536px */
+}
+
+footer > section:first-child {
+    padding-top: 0.6rem; /* 10px */ 
+    padding-bottom: 1.8rem; /* 30px */
+}
+
+#rose {
+    background-color: #F08080; 
+    min-width: 30%; /* 290px su 960px */
+    min-height: 28rem; /* 460px */
+}
+
+#ocean {
+    background-color: #1EB2AA;
+    min-width: 70%; /* 670px su 960px */
+    min-height: 28rem; /* 460px */ 
+}
+
+#ocean div {
+    border: 1px dashed white;
+    min-width: calc(100% / 4); 
+}
+
+#lightgreen {
+    background-color: #7FFFD4;
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+    align-items: center;
+    min-height: 3.75rem; /* 60px */
+}
+
+#lightgreen > div {
+    background-color: #FFB6C1;
+    padding: 0.7%;
+}
