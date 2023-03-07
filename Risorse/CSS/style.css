@@ -24,6 +24,7 @@
 .txtwhite { color: white; }
 .cursor { cursor: pointer; }
 .txtalignctr { text-align: center; }
+.txtviolet { color: #7289DA; }
 
 /* UTILITY | hover text */
 .TxtUnderUpper:hover {
@@ -31,7 +32,7 @@
     text-transform: uppercase;
 }
 
-/* UTILITY | style button */
+/* UTILITY | generic style button */
 button {
     padding: 7px 14px;
     border: 1px solid white; 
@@ -142,14 +143,14 @@ main {
     width: 50%;
 }
 
-#greenbig > h3 {
+h3 {
     font-size: 1.4rem;
     margin-top: -1rem;
 }
 
 #greenbig > button {
-    background-color: #5765F2;
-    border-color: #5765F2;
+    background-color: #8EA1E1;
+    border-color: #8EA1E1;
 }
 
 #greenbig > button:hover {
@@ -169,20 +170,33 @@ footer > section:first-child {
 }
 
 #rose {
-    background-color: #F08080; 
     min-width: 30%; /* 290px su 960px */
-    min-height: 28rem; /* 460px */
+}
+
+#italy {
+    max-width: 2rem;
+    padding-right: 2%;
+}
+
+#rose > i {
+    margin: 10% 6% 10% 0;
+}
+
+#rose > h3 {
+    margin: 0 0 10%;
 }
 
 #ocean {
-    background-color: #1EB2AA;
-    min-width: 70%; /* 670px su 960px */
-    min-height: 28rem; /* 460px */ 
+    min-width: 70%; /* 670px su 960px */ 
 }
 
 #ocean div {
-    border: 1px dashed white;
     min-width: calc(100% / 4); 
+}
+
+#ocean ul {
+    list-style-type: none;
+    line-height: 2rem;
 }
 
 #lightgreen {
